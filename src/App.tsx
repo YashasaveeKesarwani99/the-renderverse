@@ -11,6 +11,7 @@ import { UsingWithWorker } from "./pages/performance/using-with-worker";
 import MyBigListRender from "./pages/performance/my-big-list-render";
 import DoNotThrashDom from "./pages/performance/do-not-thrash-dom";
 import WhyContextIsGoood from "./pages/state-management/why-context-is-goood";
+import UsingReactUse from "./pages/hooks/using-react-use";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Route path="/my-big-list-render" element={<MyBigListRender />} />
       <Route path="/do-not-thrash-dom" element={<DoNotThrashDom />} />
       <Route path="/why-context-is-goood" element={<WhyContextIsGoood />} />
+      <Route path="/using-react-use" element={<UsingReactUse />} />
     </Routes>
   );
 }
