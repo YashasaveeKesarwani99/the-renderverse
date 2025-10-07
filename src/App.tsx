@@ -14,6 +14,7 @@ import WhyContextIsGoood from "./pages/state-management/why-context-is-goood";
 import UsingReactUse from "./pages/hooks/using-react-use";
 import ModalPage from "./pages/LLD/modal-with-portal";
 import MultiSelectDropdownDemo from "./pages/LLD/multi-select-dropdown";
+import { ToastNotificationPage } from "./pages/LLD/toast-notifcation";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <Route path="/using-react-use" element={<UsingReactUse />} />
       <Route path="/modal-with-portal" element={<ModalPage />} />
       <Route path="/multi-select" element={<MultiSelectDropdownDemo />} />
+      <Route path="/toast" element={<ToastNotificationPage />} />
     </Routes>
   );
 }
